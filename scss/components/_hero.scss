@@ -1,0 +1,68 @@
+.hero__index{
+	grid-area:hero__index;
+	background-image: url("https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px black;
+		text-align: center;
+	}
+}
+.hero__photo{
+	grid-area:hero__index;
+	background-image: url("https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px black;
+		text-align: center;
+	}
+}
+.hero__ux-ui{
+	grid-area:hero__index;
+	background-image: url("https://images.unsplash.com/photo-1586717799252-bd134ad00e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px black;
+		text-align: center;
+	}
+}
+.hero__web-design{
+	grid-area:hero__index;
+	background-image: url("https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px black;
+		text-align: center;
+	}
+}

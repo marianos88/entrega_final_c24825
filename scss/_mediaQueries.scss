@@ -1,0 +1,329 @@
+/*MEDIA QUERIE PARA CELULARES*/
+@media only screen and (max-width: 768px){
+	.container__index{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 180px 350px 200px 200px 200px 150px;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero__index"
+		"section-a__index"
+		"section-b__index"
+		"section-c__index"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.ul__nav{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		.li__nav{
+			list-style: none;
+			margin: 0.5rem;
+			padding: 0.2rem;
+			border-radius: 5px;
+			&:hover{
+				background-color: $backgroundColor;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+				&:hover{
+					color: white;
+				}
+			}
+		}
+	}	
+}
+@media only screen and (max-width: 768px){
+	.container__views{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 180px 350px 350px 350px 350px 350px 350px 350px 150px;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero__index"
+		"section-a__views"
+		"section-b__views"
+		"section-c__views"
+		"section-d__views"
+		"section-e__views"
+		"section-f__views"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.ul__nav{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		.li__nav{
+			list-style: none;
+			margin: 0.5rem;
+			padding: 0.2rem;
+			border-radius: 5px;
+			&:hover{
+				background-color: $backgroundColor;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+				&:hover{
+					color: white;
+				}
+			}
+		}
+	}
+	.container__views{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 180px 350px 350px 350px 350px 350px 350px 350px 150px;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero__index"
+		"section-a__views"
+		"section-b__views"
+		"section-c__views"
+		"section-d__views"
+		"section-e__views"
+		"section-f__views"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.container__views{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 180px 350px 350px 350px 350px 350px 350px 350px 150px;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero__index"
+		"section-a__views"
+		"section-b__views"
+		"section-c__views"
+		"section-d__views"
+		"section-e__views"
+		"section-f__views"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}	
+}
+// -------------------------------------------------------------------
+/*MEDIA QUERIE PARA TABLETS*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.container__index{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 180px 450px 200px 200px 200px 150px;
+		grid-auto-flow:row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero__index"
+		"section-a__index"
+		"section-b__index"
+		"section-c__index"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.ul__nav{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		.li__nav{
+			list-style: none;
+			margin: 0.5rem;
+			padding: 0.2rem;
+			border-radius: 5px;
+			&:hover{
+				background-color: $backgroundColor;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+				&:hover{
+					color: white;
+				}
+			}
+		}
+	}	
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.container__views{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 180px 450px 350px 350px 350px 350px 350px 350px 150px;
+		grid-auto-flow:row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero__index"
+		"section-a__views"
+		"section-b__views"
+		"section-c__views"
+		"section-d__views"
+		"section-e__views"
+		"section-f__views"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.ul__nav{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		.li__nav{
+			list-style: none;
+			margin: 0.5rem;
+			padding: 0.2rem;
+			border-radius: 5px;
+			&:hover{
+				background-color: $backgroundColor;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+				&:hover{
+					color: white;
+				}
+			}
+		}
+	}
+	.container__views{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 180px 450px 350px 350px 350px 350px 350px 350px 150px;
+		grid-auto-flow:row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero__index"
+		"section-a__views"
+		"section-b__views"
+		"section-c__views"
+		"section-d__views"
+		"section-e__views"
+		"section-f__views"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.container__views{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 180px 450px 350px 350px 350px 350px 350px 350px 150px;
+		grid-auto-flow:row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero__index"
+		"section-a__views"
+		"section-b__views"
+		"section-c__views"
+		"section-d__views"
+		"section-e__views"
+		"section-f__views"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}	
+}
+// ----------------------------------------------------------------------
+/*MEDIA QUERIE PARA DESKTOP*/
+@media only screen and (min-width: 1024px){
+	.container__index{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 150px 600px 300px 150px;
+		grid-auto-flow:row;
+		grid-auto-columns: 1fr 1fr 1fr;
+		grid-template-areas:
+		"header header header"
+		"hero__index hero__index hero__index"
+		"section-a__index section-b__index section-c__index"
+		"footer footer footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.ul__nav{
+		display: flex;
+		align-items: center;
+		.li__nav{
+			list-style: none;
+			margin: 1rem;
+			padding: 0.5rem;
+			border-radius: 5px;
+			&:hover{
+				background-color: $backgroundColor;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+				&:hover{
+					color: white;
+				}
+			}
+		}
+	}	
+}
+
+@media only screen and (min-width: 1024px){
+	.container__views{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 150px 600px 400px 400px 150px;
+		grid-auto-flow:row;
+		grid-auto-columns: 1fr 1fr 1fr;
+		grid-template-areas:
+		"header header header"
+		"hero__index hero__index hero__index"
+		"section-a__views section-b__views section-c__views"
+		"section-d__views section-e__views section-f__views"
+		"footer footer footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.ul__nav{
+		display: flex;
+		align-items: center;
+		.li__nav{
+			list-style: none;
+			margin: 1rem;
+			padding: 0.5rem;
+			border-radius: 5px;
+			&:hover{
+				background-color: $backgroundColor;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+				&:hover{
+					color: white;
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,14 @@
+.footer{
+	grid-area: footer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	ul{
+		display: flex;
+		li{
+			list-style-type: none;
+			margin: 1rem;
+		}
+	}
+}

@@ -1,0 +1,128 @@
+.section-a__index{
+	grid-area: section-a__index;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+		border: 0px;
+		background-color: darkblue;
+		padding: 0.5rem;
+		border-radius: 5px;
+		color: white;
+	}
+}
+.section-b__index{
+	grid-area: section-b__index;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+		border: 0px;
+		background-color: darkblue;
+		padding: 0.5rem;
+		border-radius: 5px;
+		color: white;
+	}
+}
+.section-c__index{
+	grid-area: section-c__index;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+		border: 0px;
+		background-color: darkblue;
+		padding: 0.5rem;
+		border-radius: 5px;
+		color: white;
+	}
+}
+.section-a__views{
+	grid-area: section-a__views;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.section-b__views{
+	grid-area: section-b__views;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.section-c__views{
+	grid-area: section-c__views;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.section-d__views{
+	grid-area: section-d__views;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.section-e__views{
+	grid-area: section-e__views;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.section-f__views{
+	grid-area: section-f__views;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.food, .perfumes, .location{
+	width: 300px;
+	height: 300px;
+	box-shadow: 17px 22px 10px -10px rgba(30,30,60,0.40);
+}
